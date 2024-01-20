@@ -10,7 +10,7 @@ terraform {
 
 # stores the terraform state file in S3
     backend "s3" {
-    bucket         	   = "chethan-terraform-state-storage"
+    bucket         	   = "chethan-terraform-state-storage1"
     key                = "state/terraform.tfstate.dev"
     region         	   = "us-east-1"
     encrypt        	   = true
