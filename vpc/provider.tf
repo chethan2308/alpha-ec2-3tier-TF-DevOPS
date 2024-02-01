@@ -10,7 +10,7 @@ terraform {
 
   # stores the terraform state file in S3
   backend "s3" {
-    bucket  = "rama-s3state13"
+    bucket  = "rama-s3state14"
     key     = "state/terraform.tfstate.dev"
     region  = "us-east-1"
     encrypt = true
